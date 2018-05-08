@@ -1,7 +1,3 @@
-# gforms-limit-dates-tony
-
-
-
 /*  Gravity Forms - date limiter  */
 
     var d = new Date();   /* load the date */
