@@ -9,8 +9,6 @@
 
 
     if (dia == '5' || hora > 9) {     Condition for check the specific day or hour
-    in this condition we check if its friday or if its 9am or more. 
-
 
 gform.addFilter( 'gform_datepicker_options_pre_init', function( optionsObj, formId, fieldId ) {
     if ( formId == 44 && fieldId == 1 ) {   Our form ID and field ID 
@@ -31,5 +29,8 @@ gform.addFilter( 'gform_datepicker_options_pre_init', function( optionsObj, form
 	 	 
 
 }
+
+
+Check the code.js to see the full code
 
 
